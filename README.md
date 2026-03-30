@@ -32,11 +32,11 @@ The goal is to improve transient response and reduce overshoot in PMSM speed con
 
 ##  Results
 
-### 🔹 Speed Response
+###  Speed Response
 
 ![Speed Response](speed_plot.png)
 
-### 🔹 PI vs Fuzzy Comparison
+###  PI vs Fuzzy Comparison
 
 ![Comparison](pi_vs_fuzzy.png)
 
@@ -46,9 +46,9 @@ The goal is to improve transient response and reduce overshoot in PMSM speed con
 
 | Parameter     | PI Controller | Fuzzy Controller |
 | ------------- | ------------- | ---------------- |
-| Rise Time     | (add value)   | (add value)      |
-| Settling Time | (add value)   | (add value)      |
-| Overshoot     | (add value)   | (add value)      |
+| Rise Time     |  0.1284 sec   |    0.5158 sec    |
+| Settling Time |  1.0569 sec   |    0.9572 sec    |
+| Overshoot     |  25.78 %      |    0.33 %        |
 
 ---
 
@@ -82,8 +82,10 @@ The goal is to improve transient response and reduce overshoot in PMSM speed con
 
 1. Open MATLAB
 2. Open `foc_fuzzy.slx`
-3. Load `fuzzy_controller.fis`
-4. Run the simulation
+3. You can change Reference speed which is done by changing the constant Value in the subsystem in Bottom right(in .slx file).
+4. Make Sure you have then in the Files(in Workspace).
+5. Load `fuzzy_controller.fis`
+6. Run the simulation
 
 ---
 
