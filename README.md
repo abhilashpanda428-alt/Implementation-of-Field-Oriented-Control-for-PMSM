@@ -38,7 +38,7 @@ The goal is to improve transient response and reduce overshoot in PMSM speed con
 
 ###  PI vs Fuzzy Comparison
 
-![Comparison](pi_vs_fuzzy.png)
+![Comparison](pi_vs_fuzzy.jpeg)
 
 ---
 
