@@ -32,11 +32,11 @@ The goal is to improve transient response and reduce overshoot in PMSM speed con
 
 ##  Results
 
-###  Speed Response
+###  Speed Response(Fuzzy Controller)
 
 ![Speed Response](speed_plot.png)
 
-###  PI vs Fuzzy Comparison
+###  Fuzzy vs PI Comparison
 
 ![Comparison](pi_vs_fuzzy.jpeg)
 
