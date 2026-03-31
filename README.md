@@ -1,5 +1,5 @@
 
-# FOC of PMSM using Fuzzy Logic Controller (MATLAB/Simulink)
+# FOC of PMSM using Fuzzy Logic Controller  (MATLAB/Simulink)
 
 ## Overview
 
