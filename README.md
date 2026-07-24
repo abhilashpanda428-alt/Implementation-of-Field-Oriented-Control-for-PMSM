@@ -32,13 +32,15 @@ The goal is to improve transient response and reduce overshoot in PMSM speed con
 
 ##  Results
 
-###  Speed Response(Fuzzy Controller)
+###  Speed Response(Fuzzy-PI Controller)
 
-![Speed Response](speed_plot.png)
+![Speed Response](<img width="952" height="972" alt="Screenshot 2026-07-24 182512" src="https://github.com/user-attachments/assets/166e94c4-163a-44a6-8ab2-64de5436592c" />
+)
 
-###  Fuzzy vs PI Comparison
+###  Adaptive PI vs PI Comparison
 
-![Comparison](pi_vs_fuzzy.jpeg)
+<img width="1600" height="856" alt="Speed_vs_time_of _PI_vs_Adaptive_PI" src="https://github.com/user-attachments/assets/7062a521-55fd-4a71-a487-b2c75820bcee" />
+Speed_vs_time_of _PI_vs_Adaptive_PI.jpg
 
 ---
 
