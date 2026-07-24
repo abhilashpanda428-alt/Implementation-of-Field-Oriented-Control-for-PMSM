@@ -75,8 +75,8 @@ Speed_vs_time_of _PI_vs_Adaptive_PI.jpg
 
 ##  Project Files
 
-* `foc_fuzzy.slx` → Main Simulink model
-* `fuzzy_controller.fis` → Fuzzy logic design
+* `Hybrid_PI_Fuzzy.slx` → Main Simulink model
+* `Fuzzy_control_PID.fis` → Fuzzy logic design
 * `Speed_vs_time_of _PI_vs_Adaptive_PI.jpg` → Comparison plot
 * `Speed_vs_time_Adaptive_PI.png` → Speed response
 
@@ -85,10 +85,10 @@ Speed_vs_time_of _PI_vs_Adaptive_PI.jpg
 ##  How to Run
 
 1. Open MATLAB
-2. Open `foc_fuzzy.slx`
+2. Open `Hybrid_PI_Fuzzy.slx`
 3. You can change Reference speed which is done by changing the constant Value in the subsystem in Bottom right(in .slx file).
 4. Make Sure you have then in the Files(in Workspace).
-5. Load `fuzzy_controller.fis`
+5. Load `Fuzzy_control_PID.fis`
 6. Run the simulation
 
 ---
