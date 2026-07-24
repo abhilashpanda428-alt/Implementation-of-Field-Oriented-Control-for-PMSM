@@ -1,9 +1,10 @@
 
-# FOC of PMSM using Fuzzy Logic Controller  (MATLAB/Simulink)
+
+# Comparative Analysis of PI and Hybrid Adaptive PI Controllers for PMSM Field Oriented Control  (MATLAB/Simulink)
 
 ## Overview
 
-This project implements **Field Oriented Control (FOC)** for a Permanent Magnet Synchronous Motor (PMSM) using a **Fuzzy Logic Controller** and compares its performance with a conventional **PI Controller**.
+This project implements **Field Oriented Control (FOC)** for a Permanent Magnet Synchronous Motor (PMSM) using a **Adaptive PI Logic Controller** and compares its performance with a conventional **PI Controller**.
 
 The goal is to improve transient response and reduce overshoot in PMSM speed control.
 
@@ -11,9 +12,10 @@ The goal is to improve transient response and reduce overshoot in PMSM speed con
 
 ##  Objective
 
-* Replace traditional PI control with fuzzy logic Controller
-* Improve system stability and robustness
-* Analyze performance using simulation metrics
+- Design a PMSM Field Oriented Control system.
+- Implement a conventional PI speed controller.
+- Develop a Hybrid Adaptive PI speed controller.
+- Compare controller performance under identical operating conditions.
 
 ---
 
@@ -34,8 +36,8 @@ The goal is to improve transient response and reduce overshoot in PMSM speed con
 
 ###  Speed Response(Fuzzy-PI Controller)
 
-![Speed Response](<img width="952" height="972" alt="Screenshot 2026-07-24 182512" src="https://github.com/user-attachments/assets/166e94c4-163a-44a6-8ab2-64de5436592c" />
-)
+<img width="952" height="972" alt="Speed_vs_time_Adaptive_PI" src="https://github.com/user-attachments/assets/a5bc18e4-9f01-47cf-8721-c6167801a57c" />
+
 
 ###  Adaptive PI vs PI Comparison
 
@@ -56,10 +58,10 @@ Speed_vs_time_of _PI_vs_Adaptive_PI.jpg
 
 ##  Observations
 
-* Fuzzy controller significantly **reduces overshoot**
-* Faster and smoother settling compared to PI controller
-* Better handling of system non-linearity
-* Improved overall stability
+- Hybrid Adaptive PI controller significantly reduces overshoot compared to the conventional PI controller.
+- Improved transient response with smoother speed regulation.
+- Better steady-state stability under changing operating conditions.
+- Adaptive gain adjustment improves controller robustness for nonlinear motor dynamics.
 
 ---
 
@@ -75,8 +77,8 @@ Speed_vs_time_of _PI_vs_Adaptive_PI.jpg
 
 * `foc_fuzzy.slx` → Main Simulink model
 * `fuzzy_controller.fis` → Fuzzy logic design
-* `pi_vs_fuzzy.png` → Comparison plot
-* `speed_plot.png` → Speed response
+* `Speed_vs_time_of _PI_vs_Adaptive_PI.jpg` → Comparison plot
+* `Speed_vs_time_Adaptive_PI.png` → Speed response
 
 ---
 
