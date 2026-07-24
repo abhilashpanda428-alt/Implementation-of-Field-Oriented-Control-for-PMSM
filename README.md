@@ -48,11 +48,11 @@ Speed_vs_time_of _PI_vs_Adaptive_PI.jpg
 
 ##  Performance Comparison
 
-| Parameter     | PI Controller | Fuzzy Controller |
-| ------------- | ------------- | ---------------- |
-| Rise Time     |  0.1284 sec   |    0.5158 sec    |
-| Settling Time |  1.0569 sec   |    0.9572 sec    |
-| Overshoot     |  25.78 %      |    0.33 %        |
+| Parameter     | PI Controller | Adaptive PI Controller |
+| ------------- | ------------- | ---------------------- |
+| Rise Time     |  0.1284 sec   |    0.0642 sec          |
+| Settling Time |  1.0569 sec   |    0.5993 sec          |
+| Overshoot     |  25.78 %      |    7.93 %              |
 
 ---
 
